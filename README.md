@@ -483,9 +483,6 @@ The firmware development involved identifying and resolving numerous subtle real
 |:-:|:-:|
 | ![Robot on Track](/robot_on_track.jpg) | ![Award Ceremony](/competition_certificate.jpg) |
 
-> *Images referenced above correspond to uploaded files:*
-> `Side.jpeg` · `Top.jpeg` · `Robot_on_Track.jpeg` · `Award_ceremony.jpeg`
-
 ---
 
 ## 🛠️ Tech Stack
@@ -531,6 +528,6 @@ You are free to use, modify, and distribute this code and hardware design for pe
 ---
 
 <p align="center">
-  <strong>Built with ❤️ for the BCI Campus Line Following Competition</strong><br/>
+  <strong>Built with ❤️ for the BCI Campus Line Following Competition 2026</strong><br/>
   <em>ESP32 · C++ · FreeRTOS · TB6612FNG · QTR-8RC · 11.4V Overvolted N20 Motors</em>
 </p>
