@@ -141,10 +141,10 @@ The ESP32 hosts its own **Wi-Fi Access Point** (`SSID: LineFollower`, `Pass: rob
 ## 🔩 Hardware Architecture
 
 <p align="center">
-  <img src="docs/hardware_diagram.png" alt="Hardware Schematic Diagram" width="800"/>
+  <img src="hardware_diagram.png" alt="Hardware Schematic Diagram" width="800"/>
 </p>
 
-> 📄 Full schematic: [`docs/hardware_diagram.pdf`](docs/hardware_diagram.pdf) — open in any PDF viewer for full resolution.
+> 📄 Full schematic: [`hardware_diagram.pdf`](hardware_diagram.pdf) — open in any PDF viewer for full resolution.
 > Designed in **EasyEDA** · Rev 1.0 · Date 2026-05-05 · Author: `avishkacampus`
 
 ### Block Diagram
@@ -519,26 +519,6 @@ The firmware development involved identifying and resolving numerous subtle real
 | **ESP32 Preferences (NVS)** | PID and AT8 checkpoint persistence |
 | **LEDC (ESP32 PWM)** | 20kHz PWM generation for motor control |
 | **EasyEDA** | Circuit schematic design |
-
----
-
-## 📁 Repository Structure
-
-```
-line-following-robot/
-├── src/
-│   └── real_finel.cpp          # Main firmware (v8.0)
-├── docs/
-│   ├── hardware_diagram.pdf    # Full circuit schematic (EasyEDA export)
-│   └── hardware_diagram.png    # Schematic preview image
-├── /
-│   ├── robot_image.jpg         # Hero image
-│   ├── side_view.jpg           # Robot side profile
-│   ├── top_view.jpg            # Robot top-down view
-│   ├── robot_on_track.jpg      # Competition run photo
-│   └── competition_certificate.jpg  # Award ceremony photo
-└── README.md
-```
 
 ---
 
